@@ -12,7 +12,6 @@ env:
 
 jobs:
   rustdoc:
-    if: github.repository == 'Masterchef365/rustdoc-test'
     runs-on: ubuntu-latest
 
     steps:
